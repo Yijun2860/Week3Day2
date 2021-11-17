@@ -1,0 +1,52 @@
+body {
+    background-color: cornsilk;
+}
+
+#one {
+    background-color: coral;
+    position:fixed;
+    color:cornsilk;
+    width: 100%;
+    height:8%;
+    top:0;
+    right:0;
+}
+
+#nav {
+    position:absolute;
+    top: 50%;
+    right:10px;
+    height:26px;
+    margin-top: -13px;
+}
+
+#two {
+    width: 100%;
+    position:absolute;
+    top: 8%;
+}
+
+ul {
+    display: inline-block;
+    padding:50px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+ul li {
+    width: 250px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    background-color: coral;
+    color:cornsilk;
+}
+
+h2 {
+    text-align: center;
+    color:cornsilk;
+}
